@@ -1,0 +1,7 @@
+server:
+port: 8904
+ 
+eureka:
+client:
+serviceUrl:
+defaultZone: http://microserv:8761/eureka/
