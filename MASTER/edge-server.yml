@@ -1,11 +1,11 @@
 server:
   port: 8765
- 
+
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://microserv:8761/eureka/
- 
+      defaultZone: http://localhost:8761/eureka/
+
 zuul:
   debug:
     request: true
