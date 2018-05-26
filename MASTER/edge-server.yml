@@ -11,8 +11,8 @@ zuul:
     request: true
   routes:
     card-service:
-        path: /card-service/*
-        serviceId: microserv:card-service
+        path: /card-service/**
+        serviceId: CARD-SERVICE
         stripPrefix: true
     statement-service:
         path: /statement-service/**
